@@ -4,6 +4,7 @@ var enemies = [];
 var img;
 var lives = 5;
 var enemySpeed = 0.3;
+var tester;
 
 function preload() {
   img = loadImage('spaceship.png');

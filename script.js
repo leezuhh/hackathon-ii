@@ -22,8 +22,6 @@ function setup() {
 }
 
 function draw() {
-  // var enemySpeed = document.getElementById("myRange").value;
-  // console.log(enemySpeed);
   background(bg);
   image(img, player.x, player.y, 60, 60);
   line(3000, 500, 0, 500);
